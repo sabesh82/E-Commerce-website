@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer-logo-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.footer-logo-menu li{
+    font-size: 17px;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px; 
+    margin-left:60px ;
+    gap: 35px; 
+    cursor: pointer;
+}
+
+.copyright p{
+    margin-top: 80px;
+    margin-left: 50px;
+}

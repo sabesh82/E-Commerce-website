@@ -1,0 +1,45 @@
+.subsrciption{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient(to bottom, lavender, white);
+    width: 65%;
+}
+
+.sub-box h1{
+    margin: 40px auto;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sub-box p{
+    place-self: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.sub-input-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.sub-input-btn input{
+    padding: 8px;
+    font-size: 17px;
+    width: 350px;
+    border-radius: 35px;
+}
+
+.sub-input-btn button{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    padding: 8px;
+}
+
+.sub-input-btn button:hover{
+    background-color: rgb(75, 69, 69);
+}
